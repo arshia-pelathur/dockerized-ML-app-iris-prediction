@@ -51,6 +51,7 @@ The application provides a `/predict` endpoint for making predictions. You can u
 **Example Request Using `curl`**:
 ```sh
 curl -X POST http://localhost:4000/predict -H "Content-Type: application/json" -d '{"input": [5.1, 3.5, 1.4, 0.2]}'
+'''
 
 **Example Response**:
 ```json
