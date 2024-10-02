@@ -9,6 +9,7 @@ This project is a simple machine learning web application that predicts the spec
 4. [Instructions to Test the ML Endpoint](#instructions-to-test-the-ml-endpoint)
 5. [Any Other Relevant Information About the Project](#any-other-relevant-information-about-the-project)
     - [Project Structure](#project-structure)
+    - [Deployment on GCP](#deployment-on-gcp)
 
 
 
