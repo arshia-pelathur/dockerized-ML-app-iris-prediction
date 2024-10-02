@@ -6,11 +6,7 @@ This project is a simple machine learning web application that predicts the spec
 1. [Overview of the Project](#overview-of-the-project)
 2. [Technologies Used](#technologies-used)
 3. [Instructions to Build and Run the Docker Container](#instructions-to-build-and-run-the-docker-container)
-    - [Prerequisites](#prerequisites)
-    - [Steps to Set Up the Project Locally](#steps-to-set-up-the-project-locally)
 4. [Instructions to Test the ML Endpoint](#instructions-to-test-the-ml-endpoint)
-    - [Web Interface](#web-interface)
-    - [API Endpoint](#api-endpoint)
 5. [Any Other Relevant Information About the Project](#any-other-relevant-information-about-the-project)
     - [Project Structure](#project-structure)
 
