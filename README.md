@@ -2,6 +2,20 @@
 
 This project is a simple machine learning web application that predicts the species of an Iris flower based on four input features. The application uses a decision tree classifier and is built with Python, Flask, and Scikit-Learn, containerized using Docker for easy deployment.
 
+## Table of Contents
+1. [Overview of the Project](#overview-of-the-project)
+2. [Technologies Used](#technologies-used)
+3. [Instructions to Build and Run the Docker Container](#instructions-to-build-and-run-the-docker-container)
+    - [Prerequisites](#prerequisites)
+    - [Steps to Set Up the Project Locally](#steps-to-set-up-the-project-locally)
+4. [Instructions to Test the ML Endpoint](#instructions-to-test-the-ml-endpoint)
+    - [Web Interface](#web-interface)
+    - [API Endpoint](#api-endpoint)
+5. [Any Other Relevant Information About the Project](#any-other-relevant-information-about-the-project)
+    - [Project Structure](#project-structure)
+
+
+
 ## Overview of the Project
 The goal of this project is to create a Dockerized machine learning application for predicting Iris flower species. The application takes four input features—sepal length, sepal width, petal length, and petal width—and uses a decision tree model to predict whether the Iris flower is of species Setosa, Versicolor, or Virginica.
 
@@ -51,13 +65,14 @@ The application provides a `/predict` endpoint for making predictions. You can u
 **Example Request Using `curl`**:
 ```sh
 curl -X POST http://localhost:4000/predict -H "Content-Type: application/json" -d '{"input": [5.1, 3.5, 1.4, 0.2]}'
-'''
+```
 
 **Example Response**:
 ```json
 {
   "prediction": 0
 }
+```
 
 ## Any Other Relevant Information About the Project
 
