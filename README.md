@@ -78,3 +78,7 @@ curl -X POST http://localhost:4000/predict -H "Content-Type: application/json" -
 - **`train_model.py`**: Script to train the decision tree classifier and save the model as `model.pkl`.
 - **`app.py`**: Flask application code to serve predictions using the trained model.
 - **`model.pkl`**: Serialized machine learning model for Iris species classification.
+
+### Deployment on GCP
+To deploy the application on Google Cloud Platform (GCP), create a VM instance, install Docker, clone the repository, build the Docker image, and run the container on the VM to make the application publicly accessible.
+
